@@ -14,9 +14,9 @@ putchar(a);
 putchar( );
 if (a < '9')
 {
-putchar(",");
+putchar(',');
 }
 }
-puchar("\n");
+putchar("\n");
 return (0);
 }
