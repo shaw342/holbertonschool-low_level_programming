@@ -3,7 +3,7 @@
 #include <stdio.h>
 
 
-int mai(void)
+int main(void)
 {
 	int n ;
 	int last_digit;
