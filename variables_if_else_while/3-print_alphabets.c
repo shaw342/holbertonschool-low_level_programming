@@ -12,6 +12,9 @@ char a;
 for ( a = 'a'; a <= 'z' ; a++)
 {
 putchar(a);
+}
+for ( a = 'a'; a <= 'z' ; a++)
+{
 putchar(toupper(a));
 }
 putchar('\n');
