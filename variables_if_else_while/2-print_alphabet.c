@@ -1,8 +1,8 @@
 #include <stdio.h>
 #include <ctype.h>
-int main(){
+int main(void){
 
-for(char i = 'a';i<='z';i++){
+for(char i = 'a';i <='z';i++){
 putchar(i);
 
 }
