@@ -4,7 +4,7 @@
  *
  * Return: Always 0 (Success)
  */
-int main(coid)
+int main(void)
 {
 int a;
 
@@ -17,6 +17,6 @@ if (a < '9')
 putchar(",");
 }
 }
-
+puchar("\n");
 return (0);
 }
