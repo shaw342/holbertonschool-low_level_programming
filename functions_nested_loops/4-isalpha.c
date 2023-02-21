@@ -10,16 +10,16 @@
  */
 int _isalpha(int c)
 {
-        char l = (char) c;
+char l = (char) c;
 
-        if (isalpha(l))
-        {
-        return (1);
-        }
-        else
-        {
-        return (0);
-        }
+if (isalpha(l))
+{
+return (1);
+}
+else
+{
+return (0);
+}
 
 
 
