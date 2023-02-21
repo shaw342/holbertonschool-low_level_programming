@@ -5,7 +5,7 @@
  * Auth: Barua shawan
  */
 /**
- * print_alphabet_x10 - prints the alphabetx10 in lowercase, followed by a new line.
+ * print_alphabet_x10 - prints the alphabetx10 in lowercase,by a new line.
  */
 void print_alphabet_x10(void)
 {
