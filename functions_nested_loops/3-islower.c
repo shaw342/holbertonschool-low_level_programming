@@ -5,13 +5,14 @@ int _islower(int c)
 {	
 	char l = (char) c;
 
-	if (islower(c))
+	if (islower(l))
 	{
-	return (1);
+	putchar('1');
 	}
 	else 
 	{
-	return (0);
+	putchar('0');
 	}
+	return (0);
 
 }
