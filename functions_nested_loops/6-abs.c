@@ -2,9 +2,9 @@
 #include <stdio.h>
 #include <stdlib.h>
 /**
- * -abs - Check Holberton
+ * _abs - computes the absolute value of an integer
  * @n: An input character
- * Return: abs(l)
+ * Return: always 0.
  */
 int _abs(int l)
 {
