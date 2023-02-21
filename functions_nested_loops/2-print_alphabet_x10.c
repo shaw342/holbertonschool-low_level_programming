@@ -1,11 +1,11 @@
 #include "main.h"
 #include <stdio.h>
 /*
- * File: 1-alphabet.c
- * Auth: Brennan D Baraban
+ * File: print_alphabet_x10.c
+ * Auth: Barua shawan
  */
 /**
- * print_alphabet - prints the alphabet in lowercase, followed by a new line.
+ * print_alphabet_x10 - prints the alphabetx10 in lowercase, followed by a new line.
  */
 void print_alphabet_x10(void)
 {
