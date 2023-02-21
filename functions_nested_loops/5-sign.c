@@ -17,10 +17,11 @@ else if ( n == 0)
 {
 _putchar('0');
 value = 0;
-}else
+}
+else
 {
 _putchar('-');
 value = -1;
 }
-return value;
+return (value);
 }
