@@ -10,11 +10,11 @@ int _islower(int c)
 
 	if (islower(l))
 	{
-	return ('1');
+	return ('0');
 	}
 	else 
 	{
-	return ('0');
+	return ('1');
 	}
 	
 
