@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include "main.h"
 #include <ctype.h>
-int _isalpha(int c)
+int _islower(int c)
 {	
 	char l = (char) c;
 
