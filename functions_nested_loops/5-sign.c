@@ -10,16 +10,16 @@ int print_sign(int n)
 int value;
 if (n > 0)
 {
-putchar('+');
+_putchar('+');
 value = 1;
 }
 else if ( n == 0)
 {
-putchar('0');
+_putchar('0');
 value = 0;
 }else
 {
-putchar('-');
+_putchar('-');
 value = -1;
 }
 return value;
