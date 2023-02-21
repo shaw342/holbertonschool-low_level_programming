@@ -9,17 +9,17 @@
  * Return: 1 if is lowercase or 0 if is uppercase
  */
 int _islower(int c)
-{	
+{
 	char l = (char) c;
 
 	if (islower(l))
 	{
 	return (1);
 	}
-	else 
+	else
 	{
 	return (0);
 	}
-	
+
 
 }
