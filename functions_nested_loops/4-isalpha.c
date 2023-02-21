@@ -6,7 +6,7 @@
  * @c: An input character
  * Description: function uses _putchar function to print
  * alphabet in lowercase 10 times
- * Return: 1 if is alpha caractere or 0 if is not
+ * Return: 1 if is lowercase or 0 if is uppercase
  */
 int _isalpha(int c)
 {
