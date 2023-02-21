@@ -13,7 +13,7 @@ if (n > 0)
 _putchar('+');
 value = 1;
 }
-else if ( n == 0)
+else if (n == 0)
 {
 _putchar('0');
 value = 0;
