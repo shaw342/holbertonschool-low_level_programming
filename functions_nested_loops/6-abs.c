@@ -3,7 +3,7 @@
 #include <stdlib.h>
 /**
  * _abs - computes the absolute value of an integer
- * @n: An input character
+ * @l: An input character
  * Return: always 0.
  */
 int _abs(int l)
