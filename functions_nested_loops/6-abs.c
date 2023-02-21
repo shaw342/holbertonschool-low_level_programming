@@ -4,7 +4,7 @@
 /**
  * -abs - Check Holberton
  * @n: An input character
- * Return: b
+ * Return: abs(l)
  */
 int _abs(int l)
 {
