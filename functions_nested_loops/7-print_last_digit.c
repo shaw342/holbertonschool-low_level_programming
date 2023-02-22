@@ -9,8 +9,8 @@
  */
 int print_last_digit(int n)
 {
-char last;
-last  = (char) n%10;
+int last;
+last  = n%10;
 printf("%d\n",last);
-return (0);
+return (n%10);
 }
