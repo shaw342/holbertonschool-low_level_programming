@@ -1,6 +1,6 @@
 #include "main.h"
 #include <stdio.h>
-void time_table(void)
+void times_table(void)
 {
 	int i;
 	int b;
@@ -11,11 +11,11 @@ void time_table(void)
 	for (b = 0 ; b <= 9 ; b++)
 	{
 	c = i * b ;
-	putchar(c);
+	_putchar(c);
 	
 	}
 	
-	putchar('\n');
+	_putchar('\n');
 	}
 
 
