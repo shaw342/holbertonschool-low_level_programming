@@ -14,6 +14,7 @@ last  = n%10;
 if (last < 0)
 {
 last = -1*last;
+printf("%d",last);
 return (last);
 }
 printf("%d",last);
