@@ -14,7 +14,7 @@ last  = n%10;
 if (last < 0)
 {
 last = -1*last;
-_putchr(last);
+_putchar(last);
 return (last);
 }
 _putchar(last);
