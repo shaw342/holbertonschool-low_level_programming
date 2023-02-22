@@ -4,7 +4,7 @@
 #include "main.h"
 /**
  * print_last_digit - computes the absolute value of an integer
- * @r: An input character
+ * @n: An input character
  * Return: always last digit
  */
 
