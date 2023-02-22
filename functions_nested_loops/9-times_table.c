@@ -1,7 +1,7 @@
 #include "main.h"
 #include <stdio.h>
 /**
- *times_table - print the multiplication table 0 to 10
+ *times_table -print the multiplication table 0 to 10
  *
  */
 void times_table(void)
@@ -24,6 +24,8 @@ void times_table(void)
 	}
 	else if (c == 0)
 	{
+	_putchar(',');
+	_putchar(' '
 	_putchar(c + '0');
 	}
 	else
