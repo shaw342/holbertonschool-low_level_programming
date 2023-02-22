@@ -14,9 +14,9 @@ last  = n%10;
 if (last < 0)
 {
 last = -1*last;
-printf("%d",last);
+_putchr(last);
 return (last);
 }
-printf("%d",last);
+_putchar(last);
 return (n%10);
 }
