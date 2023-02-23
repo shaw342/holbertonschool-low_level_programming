@@ -3,27 +3,19 @@
 #include <ctype.h>
 #include "main.h"
 /**
- * more_numbers - Check Holberton
+ * print_line - Check Holberton
+ *@n: an input number
  * Description: function uses _putchar function to print
- * print - the number from 0 to 14
+ * alphabet in lowercase 10 times
+ * Return: 1 if is lowercase or 0 if is uppercase
  */
-
 void print_line(int n)
 {
-	 int i;
+	int i;
 
-	 for (i = 0; i < n ; i++)
-	 {
-	 if (n <= 0)
-	 {
-	 _putchar('\n');
-	 
-	 }
-	 else
-	 {
-	 _putchar('_');
-	 }
-
-	 }
-	 putchar('\n');
+	for (i = 0; i < n ; i++)
+	{
+	_putchar('_');
+	}
+	putchar('\n');
 }
