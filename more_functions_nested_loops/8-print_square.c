@@ -3,7 +3,7 @@
 #include "main.h"
 /**
  * print_square - Check Holberton
- *@n: an input number
+ *@size: an input number
  * Description: function uses _putchar function to print
  * alphabet in lowercase 10 times
  * Return: 1 if is lowercase or 0 if is uppercase
@@ -13,7 +13,7 @@ void print_square(int size)
 	int i;
 	int j;
 
-	if(size <= 0)
+	if (size <= 0)
 	{
 	putchar('\n');
 	}
