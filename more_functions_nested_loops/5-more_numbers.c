@@ -3,9 +3,9 @@
 #include <ctype.h>
 #include "main.h"
 /**
- * print_numbers - Check Holberton
+ * more_numbers - Check Holberton
  * Description: function uses _putchar function to print
- * print - the number from 0 to 9
+ * print - the number from 0 to 14
  */
 
 void more_numbers(void)
@@ -17,13 +17,12 @@ void more_numbers(void)
 	{
 	for (j = 0; j <= 14 ; j++)
 	{
-	if(j > 9)
+	if (j > 9)
 	{
 	_putchar(j / 10 + '0');
 	}
 	_putchar(j % 10 + '0');
 	}
 	_putchar('\n');
-	
 	}
 }
