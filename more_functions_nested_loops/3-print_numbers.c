@@ -11,7 +11,7 @@
  * Return: 1 if is lowercase or 0 if is uppercase
  */
 
-void mul(void)
+void  print_numbers(void)
 {
 	int i;
 
@@ -19,5 +19,5 @@ void mul(void)
 	{
 	_putchar(i +'0');
 	}
-	putchar('\n');
+	_putchar('\n');
 }
