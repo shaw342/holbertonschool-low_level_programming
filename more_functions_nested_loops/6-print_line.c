@@ -18,7 +18,9 @@ void print_line(int n)
 	 {
 	 putchar('\n');
 	 
+	 }else
+	 {
+	 putchar('_');
 	 }
-	 putchar('-');
 	 }
 }
