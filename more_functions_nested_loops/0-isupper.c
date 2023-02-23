@@ -2,7 +2,7 @@
 #include "main.h"
 #include <ctype.h>
 /**
- * _islower - Check Holberton
+ * _isupper - Check Holberton
  * @c: An input character
  * Description: function uses _putchar function to print
  * alphabet in uppercase 10 times
