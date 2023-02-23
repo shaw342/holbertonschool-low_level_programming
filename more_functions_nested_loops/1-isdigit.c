@@ -5,7 +5,7 @@
 int _isdigit(int c)
 {	char l = (char)c;
 
-	if(_isdigit(l))
+	if(isdigit(l))
 	{
 	return(1);
 	}
