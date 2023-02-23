@@ -3,7 +3,7 @@
 #include <ctype.h>
 #include "main.h"
 /**
- * print_line - Check Holberton
+ * print_diagonal - Check Holberton
  *@n: an input number
  * Description: function uses _putchar function to print
  * alphabet in lowercase 10 times
