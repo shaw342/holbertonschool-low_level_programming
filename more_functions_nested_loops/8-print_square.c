@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include "main.c"
+#include "main.h"
 /**
  * print_square - Check Holberton
  *@n: an input number
