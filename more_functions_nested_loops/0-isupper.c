@@ -10,18 +10,17 @@
  */
 int _isupper(int c)
 {
-        char l = (char) c;
+	char l = (char) c;
+	if (isupper(l))
+	{
+	return (1);
+	}
+	else
+	{
+	return (0);
+	}
 
-        if (isupper(l))
-        {
-        return (1);
-        }
-        else
-        {
-        return (0);
-        }
-
-
-
+	
+	
 
 }
