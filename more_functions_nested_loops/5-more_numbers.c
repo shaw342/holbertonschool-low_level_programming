@@ -17,10 +17,10 @@ void more_numbers(void)
 	{
 	for (j = 0; j <= 15 ; j++)
 	{
-	putchar(j / 10);
-	putchar(j % 10 + '0');
+	_putchar(j / 10);
+	_putchar(j % 10 + '0');
 	}
-	putchar('\n');
+	_putchar('\n');
 	
 	}
 }
