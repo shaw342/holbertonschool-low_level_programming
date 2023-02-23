@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include "main.c"
 /**
  * print_square - Check Holberton
  *@n: an input number
@@ -19,7 +20,7 @@ void print_square(int size)
 	{
 	_putchar('*');
 	}
-	_putchar('\');
+	_putchar('\n');
 	}
 
 
