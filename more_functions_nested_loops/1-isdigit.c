@@ -12,7 +12,7 @@
 int _isdigit(int c)
 {	char l = (char)c;
 
-	if( isdigit(l))
+	if (isdigit(l))
 	{
 	return (1);
 	}
@@ -20,5 +20,5 @@ int _isdigit(int c)
 	{
 	return (0);
 	}
-	
+
 }
