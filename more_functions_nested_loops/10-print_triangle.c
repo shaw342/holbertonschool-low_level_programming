@@ -4,6 +4,7 @@ void print_triangle(int size)
 {
 	int i;
 	int c;
+
 	if (size > 0)
 	{
 		for (i = size ; i > 0 ; i--)
@@ -16,18 +17,17 @@ void print_triangle(int size)
 					_putchar('#');
 				}
 				else
-				{	
+				{
 					_putchar(' ');
 				}
 			}
 			_putchar('\n');
 		}
-		
 	}
 	else
 	{
 		_putchar('\n');
-	
+
 	}
 
 }
