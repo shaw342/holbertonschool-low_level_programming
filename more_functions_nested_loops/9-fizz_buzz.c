@@ -8,20 +8,21 @@ int main()
 	{
 	if (i % 3 == 0)
 	{
-		printf("fizz ");
+		printf("Fizz ");
 	}
 	else if (i % 5 == 0)
 	{
-		printf("buzz ");
+		printf("Buzz ");
 	}
 	else if (i % 5 == 0 && i % 3 == 0)
 	{
-	printf("fizz buzz");
+	printf("Fizz Buzz");
 	}else
 	{
 	printf("%d ", i);
 	}
 	}
+	printf("\n");
 
 return 0;
 }
