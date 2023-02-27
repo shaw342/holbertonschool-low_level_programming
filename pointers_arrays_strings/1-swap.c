@@ -1,7 +1,7 @@
 #include "main.h"
 #include <stdio.h>
 /**
- * swap_int - swaps the values of two integers.
+ * swap_int - swaps values of integers.
  * @a: add value of *b
  * @b: add value of *a
  * Return: nothing
