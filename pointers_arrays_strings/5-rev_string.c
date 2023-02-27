@@ -9,6 +9,7 @@ void rev_string(char *s)
 	while (i != (s[i]/2))
 	{
 		printf("%c",s[i]/2);
+		i--;
 
 	}
 	}
