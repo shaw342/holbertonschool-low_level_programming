@@ -3,6 +3,6 @@
 #include <string.h>
 void print_rev(char *s)
 {
-	printf("%d\n", strsep(s));
+	printf("%s\n", strsep(s));
 
 }
