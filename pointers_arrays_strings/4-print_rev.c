@@ -1,7 +1,8 @@
 #include <stdio.h>
 #include "main.h"
+#include <string.h>
 void print_rev(char *s)
 {
-	char r = strrev(s);
+	printf("%s\n", strrev(s));
 
 }
