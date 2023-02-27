@@ -3,12 +3,13 @@
 #include <string.h>
 void print_rev(char *s)
 {
-	int i;
-	int c;
+	int i = 0;
 
-	for(i = 0;s[i]<='\0'; i++)
-	for(c = i-1;c >= 0;c--)
-		putchar(s[c]);
-
-
+	while(s[i]<='\0')
+		i++;
+	while(i != 0)
+	{
+		_putchar(s[i]);
+		i--;
+	}
 }
