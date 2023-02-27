@@ -5,11 +5,13 @@ void print_rev(char *s)
 {
 	int i = 0;
 
-	while(s[i]<='\0')
+	while(*(s + i) != '\0')
 		i++;
-	while(i != 0)
 	{
-		_putchar(s[i]);
-		i--;
+		int j;
+		for ( i = j -1; j >= 0; j--)
+
+			printf("%c", *(s + j));
 	}
+	printf("\n");
 }
