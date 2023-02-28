@@ -2,7 +2,7 @@
 #include "main.h"
 void rev_string(char *s)
 {
-	int i;
+	int i =	0;
 	int len = 0;
 	char tmp;
 
@@ -10,11 +10,12 @@ void rev_string(char *s)
 	{
 		len++;
 	}
-	while(i!= s[len--])
+	while(i != s[len--])
 	{
 		
 		tmp = s[i];
 		s[i]=s[len];
 		s[len] = tmp;
+		i++;
 	}
 }
