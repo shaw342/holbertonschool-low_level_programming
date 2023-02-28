@@ -3,13 +3,19 @@
 void rev_string(char *s)
 {
 	int i;
-	
+	int len;
+	char tmp;
+
 	for ( i = 0;i!='\0';i++)
 	{
-	while (i != (s[i]/2))
+	len = i/2;
+
+	while (i != len)
 	{
-		s = s[i];
-		i--;
+	tmp = len/2 -i -1;
+	len/2 -i -1 = len/2 +i -1;
+	len/2 +i -1 = tmp;	
+	i++;
 
 	}
 	}
