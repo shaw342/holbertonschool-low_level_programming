@@ -2,11 +2,12 @@
 #include <stdio.h>
 void print_array(int *a, int n)
 {
-	int
-	for(i = 0;; ++i)
+	int length = sizeof(a)/sizeof(a[0]);
+
+	for ( n = 0; n < length;n++)
 	{
-	if(a[i] == a[n]) break;
-	printf("%d ",a[i]);
+		printf("%d",a[n]);
+
 	}
 
 }
