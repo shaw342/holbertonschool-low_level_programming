@@ -3,5 +3,5 @@
 
 int _atoi(char *s)
 {
-return (_atoi(s));
+return (atoi(s));
 }
