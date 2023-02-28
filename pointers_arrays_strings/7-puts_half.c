@@ -4,15 +4,15 @@ void puts_half(char *str)
 {
 	int i=0;
 	int j;
-	int leng;
+	
 
 	while (str[i] != '\0')
 	{	
 	
 	i++;	
 	}
-	leng = leng+1;
-	leng = leng/2;
+	i = i+1;
+	i = i/2;
 	for(j = leng; str[j] != '\0';j++)
 	{
 			putchar(str[j]);
