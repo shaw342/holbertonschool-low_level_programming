@@ -1,5 +1,13 @@
 #include <stdio.h>
 #include "main.h"
+
+/**
+ * rev_string - check by holberton
+ * @s: strings
+ * Return: nothing
+ *
+ */
+
 void rev_string(char *s)
 {
 	int i =	0;
@@ -10,12 +18,11 @@ void rev_string(char *s)
 	{
 		len++;
 	}
-	while(i < len--)
+	while (i < len--)
 	{
 		
 		tmp = s[i];
-		s[i++]=s[len];
+		s[i++] = s[len];
 		s[len] = tmp;
-		
 	}
 }
