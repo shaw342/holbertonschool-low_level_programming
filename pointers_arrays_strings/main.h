@@ -13,3 +13,4 @@ int _atoi(char *s);
 char *_strcat(char *dest, char *src);
 int main(void);
 char *_strncpy(char *dest, char *src, int n);
+char *cap_string(char *);
