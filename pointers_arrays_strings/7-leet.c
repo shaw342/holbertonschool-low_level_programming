@@ -16,7 +16,8 @@ char *leet(char *str)
 			{
 				r[s] = m[s];
 			}
-		}	
+		}
+	i++;	
 	}
 	
 return (str);
