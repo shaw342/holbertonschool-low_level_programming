@@ -5,7 +5,8 @@
  * *_strncat - function
  * @dest: containe the sting
  * @src: containe the string
- * return: dest
+ * @n: containe integer
+ * Return: dest
  */
 char *_strncat(char *dest, char *src, int n)
 {
