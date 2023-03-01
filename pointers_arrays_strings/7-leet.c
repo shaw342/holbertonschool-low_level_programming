@@ -3,7 +3,7 @@
 /**
  * *leet - function
  * @str: string
- * return: str
+ * Return: str
  */
 char *leet(char *str)
 {
