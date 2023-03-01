@@ -15,7 +15,7 @@ char *_strcat(char *dest, char *src)
 	src[x] = dest[y]; 
 	dest[y]= tmp;
 	printf("%c",dest[y]);
-	printf("%c",sr[x]);
+	printf("%c",src[x]);
 	
  	return (0);
 }
