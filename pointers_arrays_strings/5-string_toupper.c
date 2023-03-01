@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include "main"
+#include "main.h"
 #include <ctype.h>
 
 char *string_toupper(char *n)
