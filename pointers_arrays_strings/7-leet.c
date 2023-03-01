@@ -8,11 +8,11 @@ char *leet(char *str)
 	char m[] = "4433007711";
 
 
-	while (str[x])
+	while (str[i])
 	{
 		for (s = 0 ; r[s] ;s++)
 		{
-			if (str[x] == r[s])
+			if (str[i] == r[s])
 			{
 				r[s] = m[s];
 			}
