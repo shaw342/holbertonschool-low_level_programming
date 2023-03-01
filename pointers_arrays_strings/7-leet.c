@@ -1,5 +1,10 @@
 #include <stdio.h>
 #include "main.h"
+/**
+ * *leet - function
+ * @str: string
+ * return: str
+ */
 char *leet(char *str)
 {
 	int i = 0;
@@ -10,16 +15,14 @@ char *leet(char *str)
 
 	while (str[i])
 	{
-		for (s = 0 ; r[s] ;s++)
+		for (s = 0 ; r[s] ; s++)
 		{
 			if (str[i] == r[s])
 			{
 				str[i] = m[s];
-				
 			}
 		}
-	i++;	
+	i++;
 	}
-	
 return (str);
 }
