@@ -7,15 +7,18 @@ char *_strcat(char *dest, char *src)
 	int y;
 	int tmp;
 
-	for (x = 0;src[x];x++)
-		;
-	for (y = 0;dest[y];y++)
-		;
-	tmp = src[x];
-	src[x] = dest[y]; 
-	dest[y]= tmp;
-	printf("%c",dest[y]);
-	printf("%c",src[x]);
+	while (src[x] != '\0')
+	{
+		x++;
+	}
+	_putchar(sr[x]);
+	while (dest[y] != '\0')
+	{
+		y++;
+	}
+	_putchar(dest[y]);
+
+
 	
  	return (0);
 }
