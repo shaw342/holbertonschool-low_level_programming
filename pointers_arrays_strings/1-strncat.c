@@ -12,7 +12,7 @@ char *_strncat(char *dest, char *src, int n)
 	for(y = dest[i];src[y] != n; y++)
 	{
 
-	dest[y++] = src[y];
+	dest[i++] = src[y];
 	}
 
 	return (dest);
