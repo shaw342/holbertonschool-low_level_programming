@@ -5,14 +5,15 @@ char *_strcat(char *dest, char *src)
 {
 	int x;
 	int y;
+	int tmp;
 
 	for (x = 0;src[x];x++)
 		;
-	_putchar(src[x]);
 	for (y = 0;dest[y];y++)
 		;
-	_putchar(dest[y]);
-
+	tmp = src[x];
+	src[x] = dest[y]; 
+	dest[y]= tmp;
 	
  	return (0);
 }
