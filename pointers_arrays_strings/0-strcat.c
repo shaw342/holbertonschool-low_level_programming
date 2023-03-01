@@ -4,7 +4,7 @@
 char *_strcat(char *dest, char *src)
 {
 	int x;
-	int y;
+	int y = 0;
 	
 	
 	while (dest[y] != '\0')
