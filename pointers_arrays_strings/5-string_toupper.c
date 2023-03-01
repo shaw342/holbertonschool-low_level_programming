@@ -9,8 +9,8 @@ char *string_toupper(char *n)
 	{
 		if (n[i] >= 'a' && n[i] <= 'z')
 		{
-			toupper(n[i]);
-			return(n);
+			n[i] = (int)n[i] + 32;
+
 		}
 		i++
 	}
