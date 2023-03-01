@@ -2,8 +2,8 @@
 #include "main.h"
 char *leet(char *str)
 {
-	int i;
-	int y;
+	int i = 0;
+	int s;
 	char r[] = "aAeEoOtTlL";
 	char m[] = "4433007711";
 
@@ -14,7 +14,7 @@ char *leet(char *str)
 		{
 			if (str[x] == r[s])
 			{
-				r[s] = m[s]
+				r[s] = m[s];
 			}
 		}	
 	}
