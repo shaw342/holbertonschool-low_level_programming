@@ -5,7 +5,7 @@ char *_strchr(char *s, char c)
 
 	while (s == c)
 	{
-	return (c);
+	return (s);
 	break;
 	i++;
 	}
