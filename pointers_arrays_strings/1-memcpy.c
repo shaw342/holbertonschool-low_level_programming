@@ -2,10 +2,10 @@
 #include "main.h"
 
 /**
- * *_memecpy - function
+ * *_memcpy - function
  * @dest:memory area
- * @src:from bytes memory area
- * @n:bytes
+ * @src:memory area
+ * @n:number bytes
  * Return:dest
  */
 char *_memcpy(char *dest, char *src, unsigned int n)
