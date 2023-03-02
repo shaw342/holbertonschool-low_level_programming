@@ -2,11 +2,12 @@
 #include "main.h"
 
 /**
- * *memeset - fucntion
- * @s: pointers
- * @b: variable 
- * @n: octes
- * Return:s
+ * _memset - unction that fills memory with a constant byte.
+ * @s: menory area
+ * @b: constant byte
+ * @n: byte of memory area
+ *
+ * Return: 0
  */
 char *_memset(char *s, char b, unsigned int n)
 {
@@ -16,5 +17,5 @@ char *_memset(char *s, char b, unsigned int n)
 	{
 		s[i] = b;
 	}
-return (s);
+	return (s);
 }
