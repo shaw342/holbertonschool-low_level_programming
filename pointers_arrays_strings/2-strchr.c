@@ -2,16 +2,16 @@
 #include "main.h"
 char *_strchr(char *s, char c)
 {
-	int i;
+	int i = 0;
 
 	while (s[i] != '\0')
 	{
-		if (s[0] != c)
+		if(s[i] == c)
 		{
-			return (NULL);
-		}
-	
-		i++;
+			return (s);
+		}	
+	i++;
 	}
-return (s);
+
+return (NULL);
 }
