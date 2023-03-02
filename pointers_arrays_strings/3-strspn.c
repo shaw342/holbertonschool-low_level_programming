@@ -11,11 +11,11 @@ unsigned int _strspn(char *s, char *accept)
 		{
 			if(s[i] == accept[l])
 			{
-				l++
+				l++;
 			}
 		}
 
 	i++;
 	}
-return (s);
+return (*s);
 }
