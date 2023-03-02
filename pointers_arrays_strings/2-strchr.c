@@ -3,10 +3,15 @@
 char *_strchr(char *s, char c)
 {
 
-	while (s == c)
+	while (s[i])
 	{
-	return (s);
-	break;
+
+	if( s[i] == c)
+	{
+		return (s);
+		break;
+
+	}
 	i++;
 	}
 	
