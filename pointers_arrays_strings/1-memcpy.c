@@ -2,10 +2,10 @@
 #include "main.h"
 char *_memcpy(char *dest, char *src, unsigned int n)
 {
-	int i;
+	char i;
 
 
-	for (i = 0; i < n && src[i] != '\0'; i++)
+	for (i = '0'; i < n && src[i] != '\0'; i++)
 	{
 		dest[i] = src[i];
 	}
