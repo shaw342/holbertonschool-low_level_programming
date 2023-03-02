@@ -4,14 +4,13 @@ char *_strchr(char *s, char c)
 {
 	int i = 0;
 
-	while (s[i] != '\0')
+	while (s == c)
 	{
-		if(s[i] == c)
-		{
-			return (s);
-		}	
+	return (c);
+	break	
 	i++;
 	}
+	
 
 return (NULL);
 }
