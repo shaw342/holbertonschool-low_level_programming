@@ -4,10 +4,10 @@ char *_strchr(char *s, char c)
 {
 	int i = 0;
 
-	while (s[i])
+	while (c[i])
 	{
 
-	if( s[i] == c)
+	if( c[i] == s)
 	{
 		return (s);
 		break;
