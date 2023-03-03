@@ -16,8 +16,13 @@ unsigned int _strspn(char *s, char *accept)
 					return (s);
 					break;
 			}
-			return (NULL);	
+			if (accept[l] == '\0')
+			{
+				return (NULL);
 			}
+		}
+
+			
 			l++;
 		}
 
