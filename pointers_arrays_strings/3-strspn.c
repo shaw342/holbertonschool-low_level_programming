@@ -1,10 +1,11 @@
 #include <stdio.h>
 #include "main.h"
+
 /**
  * _strspn - function
  * @s: variable
  * @accept: variable
- * return: i
+ * Return: i
  */
 unsigned int _strspn(char *s, char *accept)
 {
@@ -19,7 +20,7 @@ unsigned int _strspn(char *s, char *accept)
 			if (s[i] == accept[l])
 			{
 					break;
-			}		
+			}
 			l++;
 		}
 		if (accept[l] == '\0')
