@@ -9,11 +9,11 @@ char *_strpbrk(char *s, char *accept)
 	{
 		while (accept[r])
 		{
-			if (s[i] == accept[r]
+			if (s[i] == accept[r])
 			{
 				break;
 			}
-			l++;
+			r++;
 
 		}
 			if(accept == '\0')
