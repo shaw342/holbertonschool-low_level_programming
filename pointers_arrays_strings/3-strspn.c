@@ -3,10 +3,11 @@
 unsigned int _strspn(char *s, char *accept)
 {
 	unsigned int i = 0;
-	unsigned int l = 0;
+	unsigned int l;
 	
 	while (s[i] != '\0')
 	{
+		l = 0;
 		
 		while (accept[l] != '\0')
 		{
