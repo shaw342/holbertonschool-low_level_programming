@@ -3,24 +3,23 @@
 unsigned int _strspn(char *s, char *accept)
 {
 	int i = 0;
-	int l;
+	int l = 0;
 
 	while (s[i] != '\0')
 	{
 		
-		if (accept[l] == '\0')
+		while (accept[l])
 		{
-			while (accept[l])
+			if( accepte == '\0')
 			{
 				if (s[i] == accept[l])
 				{
 					return (s);
+					break;
 				}
-				l++
-				
+			return (NULL);	
 			}
-		
-		return (NULL);
+			l++
 		}
 
 	i++;
