@@ -10,7 +10,7 @@ unsigned int _strspn(char *s, char *accept)
 		
 		while (accept[l])
 		{
-			if( accepte == '\0')
+			if( accepte [l] == '\0')
 			{
 				if (s[i] == accept[l])
 				{
