@@ -18,7 +18,7 @@ unsigned int _strspn(char *s, char *accept)
 			}
 			if (accept[l] == '\0')
 			{
-				return (NULL);
+				return (s);
 			}
 		}
 
@@ -28,5 +28,5 @@ unsigned int _strspn(char *s, char *accept)
 
 	i++;
 	}
-return (s);
+return (NULL);
 }
