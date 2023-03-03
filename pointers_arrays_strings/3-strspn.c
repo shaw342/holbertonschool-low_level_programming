@@ -20,13 +20,15 @@ unsigned int _strspn(char *s, char *accept)
 			{
 				return (s);
 			}
-		}
-
-			
 			l++;
 		}
 
-	i++;
+			
+
+		i++;		
 	}
+
+	
+	
 return (NULL);
 }
