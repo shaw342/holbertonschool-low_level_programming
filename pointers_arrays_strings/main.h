@@ -15,3 +15,4 @@ int main(void);
 char *_strncpy(char *dest, char *src, int n);
 char *cap_string(char *a);
 char *_memset(char *s, char b, unsigned int n);
+char *_strpbrk(char *s, char *accept);

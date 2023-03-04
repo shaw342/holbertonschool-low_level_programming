@@ -2,26 +2,25 @@
 #include "main.h"
 char *_strpbrk(char *s, char *accept)
 {
-	unsigned int i;
-	unsigned int r;
 
-	while (s[i])
+	while (*s != '\0')
 	{
-		while (accept[r])
+		
+		if (*s == *accept)
 		{
-			if (s[i] == accept[r])
-			{
-				break;
-			}
-			r++;
-
+			return (s);
 		}
-			if(accept == '\0')
-			{
-				break;
-			}
-	i++;
+
+		
+		
+	s++;
 	}
 
-return (s);
+	if (*accept == '\0')
+	{
+		return (s);
+	}
+
+
+return (NULL);
 }
