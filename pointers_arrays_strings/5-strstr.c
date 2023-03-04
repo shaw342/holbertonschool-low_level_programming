@@ -2,13 +2,13 @@
 #include "main.h"
 char *_strstr(char *haystack,char *needle)
 {
-	while (*s != '\0')
+	while (*haystack != '\0')
 	{
-        if(*accept == *s)
+        if(*needle == *haystack)
         {
-          return (s);
+          return (*haystack);
         }
-     s++;
+     haystack++;
      }
 
 
