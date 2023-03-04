@@ -10,13 +10,21 @@ char *_strstr(char *haystack,char *needle)
     {
       for (l = 0;needle[l];l++)
         {
-          if(haystack[i] == needle[l] && haystack[i+1] == needle[l+1]){
-
+          if(haystack[i+1] == needle[l+1]){
             return (haystack + i);
+          }
+         else if(haystack[i] == needle[l] && haystack[i+1] == needle[l+1])
+          {
+
+            return (NULL);
+          }else{
+            return (NULL);
           }
         }
       
     }
+
+  
 
 return (NULL);
 }
