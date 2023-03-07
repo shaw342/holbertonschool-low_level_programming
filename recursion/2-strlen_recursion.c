@@ -1,8 +1,13 @@
 #include  "main.h"
 #include <stdio.h>
+/**
+ * _strlen_recursion - function
+ * @s:input
+ * Return:void
+ */
 int _strlen_recursion(char *s)
-{	
-	if(*s == '\0')
+{
+	if (*s == '\0')
 	{
 	return (0);
 	}
