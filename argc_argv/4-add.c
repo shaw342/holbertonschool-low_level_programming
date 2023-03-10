@@ -18,7 +18,7 @@ int main(__attribute__((unused))int argc, __attribute__((unused))char **argv)
 	}
 	for (i = 1; i < argc; i++)
 	{
-	if (!atoi(argv[i]) && isalpha(argv[i]))
+	if (!atoi(argv[i]) && isalpha(argv[0]))
 	{
 		printf("Error\n");
 		return (1);
