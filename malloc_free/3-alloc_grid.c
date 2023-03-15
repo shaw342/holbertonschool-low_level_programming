@@ -1,6 +1,12 @@
 #include <stdio.h>
 #include "main.h"
 #include <stdlib.h>
+/**
+ * **alloc_grid - function
+ * @width: input
+ * @height: input
+ * Return: array
+ */
 int **alloc_grid(int width, int height)
 {
 	int **array;
@@ -10,8 +16,7 @@ int **alloc_grid(int width, int height)
 
 	if (width <= 0 || height <= 0)
 		return (NULL);
-	
-	array = malloc(height * sizeof(int*));
+	array = malloc(height * sizeof(int *));
 
 	if (array == NULL)
 	{
@@ -19,7 +24,7 @@ int **alloc_grid(int width, int height)
 		return (NULL);
 	}
 
-	for (k = 0;k < height;k++)
+	for (k = 0; k < height; k++)
 	{
 		array[k] = malloc(width * sizeof(int));
 
@@ -36,13 +41,11 @@ int **alloc_grid(int width, int height)
 
 	for (i = 0; i < height ; i++)
 	{
-		for (y = 0; y < width ;y++)
+		for (y = 0; y < width ; y++)
 		{
 			array[i][y] = 0;
 		}
-	}	
+	}
 
-
-	return (array);
-
+return (array);
 }
