@@ -1,10 +1,16 @@
 #include "main.h"
 #include <stdio.h>
 #include <stdlib.h>
+/**
+ * *_calloc - function
+ * @size: input
+ * @nmemb: input
+ * Return: array
+ */
 void *_calloc(unsigned int nmemb, unsigned int size)
 {
 	unsigned int i = 0;
-	int *array;
+	char *array;
 	unsigned int l = 0;
 
 	if (nmemb == 0 || size == 0)
