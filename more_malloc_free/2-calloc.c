@@ -3,22 +3,21 @@
 #include <stdlib.h>
 void *_calloc(unsigned int nmemb, unsigned int size)
 {
-	int i;
+	unsigned int i;
 	int *array;
-	int l;
+	unsigned int l = 0;
 
 	if (nmemb == 0 || size == 0)
 	{
 		return (NULL);
 	}
-
-	array = malloc(nmemb * size);
+	l = nmemb * size;
+	array = malloc(l);
 
 	if (array == NULL)
 	{
 		return (NULL);
 	}
-	l = nmemb * size
 
 	for (i = 0; i < l; i++)
 	{
