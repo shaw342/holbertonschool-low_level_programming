@@ -5,6 +5,7 @@
  * *string_nconcat - function
  * @s1: input
  * @s2: input
+ * @n : input
  * Return: array
  */
 char *string_nconcat(char *s1, char *s2, unsigned int n)
@@ -24,9 +25,8 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 
 	while (s1[r])
 		r++;
-
 	while (j < n && s2[j])
-		j++;	
+		j++;
 	l = j + r;
 
 	array = malloc((l * sizeof(char)) + 1);
