@@ -11,7 +11,9 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 {
 	unsigned int i;
 	unsigned int y;
+	unsigned int r = 0;
 	unsigned int l;
+	unsigned int j = 0;
 
 	char *array;
 
@@ -20,10 +22,12 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 	if (s2 == NULL)
 		s2 = "";
 
-	for (i = 0; s1[i]; i++)
-		l++;
-	for (i = 0; i < n && s2[i]; i++)
-		l++;
+	while (s1[r])
+		r++;
+
+	while (j < n && s2[j])
+		j++;	
+	l = j + r;
 
 	array = malloc((l * sizeof(char)) + 1);
 
