@@ -1,4 +1,4 @@
 #ifndef STL
 #define STL
-#define SIZE 
+#define SIZE 1024
 #endif
