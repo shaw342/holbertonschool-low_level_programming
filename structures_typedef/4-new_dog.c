@@ -2,11 +2,12 @@
 #include "dog.h"
 #include <stdlib.h>
 /**
- * new_dog - function
- * @name: input
- * @age: input
- * @owner: input
- * Return: new_dog
+ * *new_dog - function that create a new dog
+ * @name: name dog
+ * @age: age dog
+ * @owner: owner dog
+ *
+ * Return: 0
  */
 char *_strdup(char *str);
 dog_t *new_dog(char *name, float age, char *owner)
