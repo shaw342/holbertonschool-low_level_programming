@@ -8,24 +8,41 @@ dog_t *new_dog(char *name, float age, char *owner)
 	int long2;
 	char *cpyowner;
 	char *cpyname;
+	dog_t *new_dog;
 
 	long1 = _strlen(name);
 	long2 = _strlen(owner);
 
+
 	dog = malloc(sizeof(dog_t));
-	dog->name = malloc((sizeof(char) * long1) + 1);
+	cpyname = malloc((sizeof(char) * long1) + 1);
 
-	if (dog == NULL)
+	if (new_dog == NULL)
 	{
-		exit(-1);
+		free(new_dog);
+		return (NULL);
 	}
 
-
-	if (dog->name == NULL)
+	if (cpyname == NULL)
 	{
-		exit(0);
-
+		return (NULL);
 	}
+	cpyname = _strcpy(name);
+	cpyowner = mallc((sizeof(char) * long2) + 1);
+
+	if (cpyowner == NULL)
+	{
+		free(new_dog);
+		free(cpyname);
+		return (NULL);
+	}
+	cpyowner = _strcpy(owner);
+
+	new_dog->name = cpyname;
+	new_dog->owner = cpyowner;
+	new_dog->age = age;
+	return (new_dog);
+
 
 }
 int _sterlen(char *s)
