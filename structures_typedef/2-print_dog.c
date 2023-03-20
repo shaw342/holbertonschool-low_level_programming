@@ -4,7 +4,7 @@
 /**
  * print_dog - function
  * @d: input
- * Rturn: vois
+ * Return: void
  */
 void print_dog(struct dog *d)
 {
@@ -22,10 +22,6 @@ void print_dog(struct dog *d)
 		printf("Age: %f\n", d->age);
 		printf("Owner: %s\n", d->owner);
 	}
-	else
-	{
-		return;
-	}
-	
 
+	return;
 }
