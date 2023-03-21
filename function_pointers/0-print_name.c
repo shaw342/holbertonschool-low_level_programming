@@ -3,8 +3,7 @@
 /**
  * print_name - function
  * @name: input
- * f - function
- * @name:input
+ * @f: function
  */
 void print_name(char *name, void (*f)(char *))
 {
