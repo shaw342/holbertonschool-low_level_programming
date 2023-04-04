@@ -1,6 +1,6 @@
 #include "lists.h"
 /**
-  * lis_len - function return the len of list
+  * list_len - function return the len of list
   * @h: input;
   * Return: lenth;
   */
