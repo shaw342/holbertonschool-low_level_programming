@@ -1,4 +1,9 @@
 #include "lists.h"
+/**
+  * lis_len - function return the len of list
+  * @h: input;
+  * Return: lenth;
+  */
 size_t list_len(const list_t *h)
 {
 	unsigned int i = 0;
