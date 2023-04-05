@@ -2,7 +2,7 @@
 #include "lists.h"
 /**
   * add_node_end - function that adds a new node at the end of a list_t list
-  * @head: input 
+  * @head: input
   * @str: input
   * Return: head
   */
@@ -21,13 +21,15 @@ list_t *add_node_end(list_t **head, const char *str)
 	for (i = 0; str[i]; i++)
 		;
 	new_node->len = i;
-	
+
 	if (*head == NULL)
 	{
 		new_node->next = *head;
 		*head = new_node;
 
-	}else{
+	}
+	else
+	{
 		new_node->next = NULL;
 		tmp = *head;
 		while (tmp->next)
@@ -37,7 +39,6 @@ list_t *add_node_end(list_t **head, const char *str)
 		tmp->next = new_node;
 
 	}
-
 	return (*head);
 	
 }
