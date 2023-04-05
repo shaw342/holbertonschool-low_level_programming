@@ -3,7 +3,7 @@
 /**
  * dlistint_len - function returns the length of the list
  * @h: input
- * Return : length
+ * Return: length
  */
 size_t dlistint_len(const dlistint_t *h)
 {
