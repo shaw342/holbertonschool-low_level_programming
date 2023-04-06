@@ -1,6 +1,6 @@
 #include "lists.h"
 /*
- * get_dnodeint_at_index - function restuen the index of liste
+ * get_dnodeint_at_index - function resturn the index of liste
  * @head: pointers
  * @index: unsigned int
  * Return: head
