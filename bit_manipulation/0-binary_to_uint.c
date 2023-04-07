@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * binary_to_uint - function 
+ * binary_to_uint - function
  * @b: integers
  * Return: result
  */
@@ -16,8 +16,8 @@ unsigned int binary_to_uint(const char *b)
 
 			result = result << 1;
 			result += (b[i] - '0');
-
-		}else
+		}
+		else
 			return (0);
 		i++;
 
