@@ -3,6 +3,7 @@
  * delete_dnodeint_at_index - function delete the liste
  * @head: pointer to pointers
  * @index: input
+ * Return: integers²
  */
 int delete_dnodeint_at_index(dlistint_t **head, unsigned int index)
 {
