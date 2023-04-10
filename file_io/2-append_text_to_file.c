@@ -1,8 +1,8 @@
 #include "main.h"
 /**
- * append_text_to_file - function that appends text at the end of a file
+ * append_text_to_file - function appends text at the end of a file
  * @filename: input
- * @text_conten: input
+ * @text_content: input
  * Return: 1
  */
 int append_text_to_file(const char *filename, char *text_content)
