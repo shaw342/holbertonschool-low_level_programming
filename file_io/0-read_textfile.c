@@ -17,17 +17,15 @@ ssize_t read_textfile(const char *filename, size_t letters)
 		return (0);
 	}
 
-	fd = open(filename,O_RDONLY);
-	re = read(fd,buf,letters);
-	wr = write(STDOUT_FILENO,buf,re);
+	fd = open(filename, O_RDONLY);
+	re = read(fd, buf, letters);
+	wr = write(STDOUT_FILENO, buf, re);
 
 	if (fd == -1 || re == -1 || wr != re)
 	{
 		free(buf);
-		return (0);	
+		return (0);
 	}
 	close(fd);
-	
 	return (wr);
-	
 }
