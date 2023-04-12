@@ -23,7 +23,7 @@ void fileError(int file_from, int file_to, char *argv[])
 /**
  * main - check the code
  * @argc: input
- * argv: input
+ * @argv: input
  * Return: Always 0.
  */
 int main(int argc, char *argv[])
@@ -41,7 +41,7 @@ int main(int argc, char *argv[])
 	file_to = open(argv[2], O_CREAT | O_WRONLY | O_TRUNC | O_APPEND, 0664);
 	fileError(file_from, file_to, argv);
 
-	i = 1024;	
+	i = 1024;
 	while (i == 1024)
 	{
 		i = read(file_from, buf, 1024);
@@ -55,7 +55,6 @@ int main(int argc, char *argv[])
 			fileError(0, -1, argv);
 		}
 	}
-
 	re = close(file_from);
 	if (re == -1)
 	{
