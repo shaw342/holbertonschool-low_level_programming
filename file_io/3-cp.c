@@ -3,6 +3,7 @@
  * fileError - function verify file error
  * @file_from: input
  * @file_to: input
+ * @argv: input
  * Return: void
  */
 void fileError(int file_from, int file_to, char *argv[])
@@ -21,7 +22,8 @@ void fileError(int file_from, int file_to, char *argv[])
 }
 /**
  * main - check the code
- *
+ * @argc: input
+ * argv: input
  * Return: Always 0.
  */
 int main(int argc, char *argv[])
