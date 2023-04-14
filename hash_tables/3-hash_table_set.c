@@ -1,5 +1,5 @@
 #include "hash_tables.h"
-#include <stings.h>
+#include <strings.h>
 /**
  * _strdup - function
  * @s: const char ptr
